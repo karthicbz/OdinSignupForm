@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -12,6 +14,7 @@ html, body{
     Roboto, Oxygen, Ubuntu, Cantarell, 
     'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #f9fafb;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container{
@@ -54,10 +57,13 @@ html, body{
     width: calc(100vw - 35vw);
     box-shadow: 0px 2px 8px 0px gray;
     padding: 1.5rem 0 2.5rem 1rem;
+    margin: 4rem 0 2rem 0;
+    color: rgb(59, 59, 59);
 }
 
 .form-child{
     padding-top: 2rem;
+    padding-bottom: 1rem;
     position: relative;
 }
 
@@ -70,7 +76,7 @@ html, body{
 }
 
 .form-child input{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     width: 220px;
     border: 1px solid rgb(219, 217, 217);
     border-radius: 3px;
@@ -86,6 +92,57 @@ form{
 
 .middle p{
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 600;
     margin-left: 60px;
+    padding-bottom: 1rem;
+}
+
+.header .italic{
+    font-style: italic;
+}
+
+.header{
+    width: calc((100vw - 35vw) / 1.5);
+}
+
+.header p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 60px;
+    color: rgb(59, 59, 59)
+}
+
+.header .second-para{
+    margin-top: 2.5rem;
+}
+
+.bottom > *{
+    margin-left: 60px;
+}
+
+.bottom button{
+    background-color: purple;
+    font-size: 1rem;
+    color: white;
+    padding: 0.8rem 3rem;
+    border: none;
+    font-weight: 700;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.bottom .login-link{
+    text-decoration: none;
+    color: purple;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.bottom .login-link:hover{
+    text-decoration: underline;
+}
+
+.bottom .login-text{
+    font-weight: 600;
+    color: rgb(59, 59, 59)
 }
