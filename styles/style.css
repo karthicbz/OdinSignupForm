@@ -11,6 +11,12 @@ html, body{
     BlinkMacSystemFont, 'Segoe UI', 
     Roboto, Oxygen, Ubuntu, Cantarell, 
     'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f9fafb;
+}
+
+.container{
+    display: flex;
+    align-items: center;
 }
 
 .left-container{
@@ -19,7 +25,7 @@ html, body{
 
 .left-container .left-background{
     display: inline-block;
-    width: 45vw;
+    width: 35vw;
     height: 100vh;
 }
 
@@ -28,7 +34,7 @@ html, body{
     top: 35vh;
     display: flex;
     background-color: rgba(189, 160, 188, 0.8);
-    width: 45vw;
+    width: 35vw;
     padding: 1.5rem;
     color: #ffffff;
     justify-content: center;
@@ -41,4 +47,19 @@ html, body{
     width: 80px;
     height: 80px;
     filter: invert(100%) sepia(9%) saturate(7490%) hue-rotate(180deg) brightness(103%) contrast(107%);
+}
+
+.middle{
+    background-color: white;
+    width: calc(100vw - 35vw);
+    box-shadow: 0px 2px 8px 0px gray;
+    padding: 2rem 0 2rem 1rem;
+}
+
+.form-child{
+    padding-top: 1rem;
+}
+
+input{
+    font-size: 1.2rem;
 }
