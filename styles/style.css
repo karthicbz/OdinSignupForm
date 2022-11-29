@@ -58,7 +58,7 @@ html, body{
 
 .middle{
     background-color: white;
-    width: calc(100vw - 35vw);
+    width: 100vw;
     box-shadow: 0px 2px 8px 0px gray;
     padding: 1.5rem 0 2.5rem 1rem;
     margin: 4rem 0 2rem 0;
@@ -198,6 +198,17 @@ input:valid{
 
     form{
         width: 460px;
+    }
+}
+
+@media screen and (max-width: 860px){
+    .right-container{
+        margin-left: -40px;
+    }
+
+    form{
+        justify-content: flex-start;
+        gap: 5px;
     }
 }
 
