@@ -19,7 +19,7 @@ html, body{
 
 .container{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .left-container{
@@ -50,6 +50,10 @@ html, body{
     width: 80px;
     height: 80px;
     filter: invert(100%) sepia(9%) saturate(7490%) hue-rotate(180deg) brightness(103%) contrast(107%);
+}
+
+.right-container{
+    margin-top: 150px;
 }
 
 .middle{
@@ -96,7 +100,7 @@ form{
 }
 
 .middle p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
     margin-left: 60px;
     padding-bottom: 1rem;
@@ -107,11 +111,11 @@ form{
 }
 
 .header{
-    width: calc((100vw - 35vw) / 1.5);
+    width: 650px;
 }
 
 .header p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
     margin-left: 60px;
     color: rgb(59, 59, 59)
@@ -179,5 +183,21 @@ input:valid{
     top: 70px;
     left: -60px;
     color: red;
+}
+
+@media screen and (max-width: 1020px){
+    .header{
+        width: 625px;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .header{
+        width: 450px;
+    }
+
+    form{
+        width: 460px;
+    }
 }
 
