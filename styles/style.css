@@ -237,6 +237,7 @@ input:valid{
 @media screen and (max-width: 560px){
     form{
         display: block;
+        width: 100%;
     }
 
     .header p{
@@ -264,6 +265,25 @@ input:valid{
 
     .bottom{
         text-align: center;
+    }
+
+    .form-child{
+        position: static;
+
+    }
+
+    .form-child label{
+        position: static;
+    }
+
+    .form-child input{
+        display: block;
+        margin: 8px auto 0;
+    }
+
+    .form-child .pass-error{
+        top: 95px;
+        left: 145px;
     }
 }
 
